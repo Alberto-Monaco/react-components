@@ -5,9 +5,9 @@ export default function AppMain() {
 		<main className='main bg-light vh-100'>
 			<div className='container'>
 				<div className='row justify-content-center'>
-					<div className='col-md-6'>
-						<div className='card border-1 border-light-subtle'>
-							<img src={img} alt='card-img' className='card-img' />
+					<div className='col-6'>
+						<div className='card border-1 border-light-subtle rounded'>
+							<img src={img} alt='card-img' className='card-img rounded-top rounded-0' />
 							<div className='card-body'>
 								<h5 className='card-title'>Titolo del post</h5>
 								<p className='card-text'>
