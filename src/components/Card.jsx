@@ -1,4 +1,5 @@
 import img from '../assets/img/600x400.png'
+import Button from './Button/Button'
 
 export default function Card() {
 	return (
@@ -10,7 +11,7 @@ export default function Card() {
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo voluptates possimus quas esse ab adipisci
 					nostrum similique commodi pariatur nihil, ad id accusamus, omnis dignissimos!
 				</p>
-				<button className='btn btn-warning text-uppercase px-4 text-white rounded-0'>LEGGI DI PIù</button>
+				<Button />
 			</div>
 		</div>
 	)
